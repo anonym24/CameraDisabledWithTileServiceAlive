@@ -501,4 +501,22 @@ Logs:
     16:03:32.524 [Test]Activity   D  Activity. Camera onOpened, lifecycle state: RESUMED
     16:03:35.280 [Test]Activity   D  Activity. onStop
 
+**Update 6**
+
+I was able to reproduce this issue on the following real Samsung devices running Android 15:
+- Samsung S24 Ultra (Android 15)
+- Samsung S25 Ultra (Android 15)
+  
+I was not able to reproduce the issue on the following devices and Android versions:
+- Samsung S24 Ultra (Android 14)
+- Google Pixel 9 Pro (Android 15)
+  
+I also couldn’t reproduce the issue on Pixel emulators (Android 15).
+
+So, this might be a Samsung specific issue on Android 15. I haven’t tested devices from other manufacturers yet.
+
+At this point, Samsung needs to investigate the issue and provide a hotfix.
+
+I believe it would be easier for the Google team to report this to Samsung, as Google and Samsung are partners.
+
   [1]: https://i.sstatic.net/65lqbhUB.png
